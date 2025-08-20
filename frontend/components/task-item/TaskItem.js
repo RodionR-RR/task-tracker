@@ -16,7 +16,7 @@ export class TaskItem {
 
     this.elem.innerHTML = `
         <h3 class="task-title">${title}</h3>
-    
+
         <p class="task-description">${description}</p>
 
         <h5 class="task-status">${status}<h5>

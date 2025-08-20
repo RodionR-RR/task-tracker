@@ -1,4 +1,4 @@
-import { getTasks, removeTask, editTask, addTask } from "../api/tasks.js";
+import { addTask, editTask, getTasks, removeTask } from "../api/tasks.js";
 import { TaskForm, TaskItem } from "../components/index.js";
 
 export class TasksPage {
