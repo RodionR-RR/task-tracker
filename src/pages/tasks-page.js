@@ -1,5 +1,6 @@
 import { addTask, editTask, getTasks, removeTask } from "../api/tasks.js";
 import { TaskForm, TaskItem } from "../components/index.js";
+import natureImage from '../images/nature.jpg'
 
 export class TasksPage {
   constructor({ container }) {
@@ -14,6 +15,7 @@ export class TasksPage {
   async render() {
     this.container.innerHTML = `
         <h1 id="main_title">Task List</h1>
+        <img src="${natureImage}" width="200" height="350" />
         <button class="button task-add-button">Add Task</button>
         <div class="tasks">
           <ul class="task-list"></ul>
